@@ -1,7 +1,7 @@
 # CDPES🤓
 ### Consultoria Digital para Pequenas Empresas de Santarém.
 
-# Organização🧑
+# Organização⚠️
 Modelo tendo como base a visão do cliente sobre o site, sendo um site que busque demonstrar tudo sobre a CDPES e como uma consultoria pode auxiliar nos negócios de uma empresa e demonstra quais o planos que a CDPES oferece.
 
 # Como executar🖥️
