@@ -12,11 +12,11 @@ Como se tratá de uma linguagem HTML e CSS no momento não é necessário um ser
 Os clientes se cadastram e verificam as opções do site além de escolher o plano que querem e entram em contato com os administradores.
 
 ## Entregas
-+ Na primeira entrega foi criada os esqueletos de transição de páginas, o Documento da Arquitetura de Software da CDPES, DVP-CDPES, Manual CDPES, além de todo o planejamento das futuras ações do site.
++ 1-entrega: Foi criada os esqueletos de transição de páginas, o Documento da Arquitetura de Software da CDPES, DVP-CDPES, Manual CDPES, além de todo o planejamento das futuras ações do site.
 
-+ Na segunda entrega foi criada a tela de login, e a tentativa de criação da página principal, faz se necessário o planejamento para o banco de dados para a melhor funcionalidade do site.
++ 2-entrega: Foi criada a tela de login, e a tentativa de criação da página principal, faz se necessário o planejamento para o banco de dados para a melhor funcionalidade do site.
 
-+ Na terceira entrega...
++ 3-entrega:
 
 ## Desenvolvimentos futuros📜
 + Criar mais opções e uma melhor estrutura para o guichê além adicionar o CSS com a estilização das páginas.
