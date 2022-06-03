@@ -1,5 +1,5 @@
 # CDPES(Consultoria Digital)🤓
-### Criação do site da CDPES, é uma Consultoria Digital para Pequenas Empresas de Santarém, também se trata do projeto que estou desenvolvendo tanto para o projeto de Empreendedorismo quanto para o projeto de Programação para Web, .
+### Criação do site da CDPES, é uma Consultoria Digital para Pequenas Empresas de Santarém, também se trata do projeto que estou desenvolvendo tanto para o projeto de Empreendedorismo quanto para o projeto de Programação para Web.
 
 ## Organização⚠️
 Modelo tendo como base a visão do cliente sobre o site, sendo um site que busque demonstrar tudo sobre a CDPES e como uma consultoria pode auxiliar nos negócios de uma empresa e demonstra quais o planos que a CDPES oferece.
