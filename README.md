@@ -12,11 +12,13 @@ Como se tratá de uma linguagem HTML e CSS no momento não é necessário um ser
 Os clientes se cadastram e verificam as opções do site além de escolher o plano que querem e entram em contato com os administradores.
 
 ## Entregas🏆
-+ 1-entrega: Foi criada os esqueletos de transição de páginas, o Documento da Arquitetura de Software da CDPES, DVP-CDPES, Manual CDPES, além de todo o planejamento das futuras ações do site.
+### 1-entrega: 
+Foi criada os esqueletos de transição de páginas, o Documento da Arquitetura de Software da CDPES, DVP-CDPES, Manual CDPES, além de todo o planejamento das futuras ações do site.
 
-+ 2-entrega: Foi criada a tela de login, e a tentativa de criação da página principal, faz se necessário o planejamento para o banco de dados para a melhor funcionalidade do site.
+### 2-entrega: 
+Foi criada a tela de login, e a tentativa de criação da página principal, faz se necessário o planejamento para o banco de dados para a melhor funcionalidade do site.
 
-+ 3-entrega: 
+### 3-entrega: 
 - Adicionar novas imagens tanto para ícone quanto para backgrounds.
 - Página de Cadastro completa e funcional que peça Nome, nome da empresa, cpf e email.
 - Página de Planos completa e funcional na qual o usuário poderá escolher o plano e entrará em uma aba de conversa com os atendentes e seleciona a melhor forma de pagamento.
