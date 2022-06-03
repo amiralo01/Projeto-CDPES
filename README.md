@@ -3,7 +3,6 @@
 
 ## Organização⚠️
 Modelo tendo como base a visão do cliente sobre o site, sendo um site que busque demonstrar tudo sobre a CDPES e como uma consultoria pode auxiliar nos negócios de uma empresa e demonstra quais o planos que a CDPES oferece.
-atualmente estou com alguns problemas para relacionar a parte de main.css com a página principal. Data 02/06/2022
 
 ## Como executar🖥️
 Como se tratá de uma linguagem HTML e CSS no momento não é necessário um servidor web.
@@ -17,6 +16,7 @@ Foi criada os esqueletos de transição de páginas, o Documento da Arquitetura 
 
 ### 2-entrega: 
 Foi criada a tela de login, e a tentativa de criação da página principal, faz se necessário o planejamento para o banco de dados para a melhor funcionalidade do site.
+Atualmente estou com alguns problemas para relacionar a parte de main.css com a página principal.
 
 ### 3-entrega: 
 - Adicionar novas imagens tanto para ícone quanto para backgrounds.
