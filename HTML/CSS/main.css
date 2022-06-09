@@ -20,7 +20,6 @@ main {
 .redes-sociais ul li{
     margin-left: 15px;
     display: inline-block;
-    float: left;
     list-style: none;
 }
 .redes-sociais {
