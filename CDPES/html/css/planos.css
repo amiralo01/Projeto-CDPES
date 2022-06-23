@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #ffffff;
+    border: none;
+}
+input, label{
+    display: block;
+    width: 100%;
+}
+input:focus, label:focus {
+    outline: none;
+}
+body .planos img{
+    height: 100%;
+}
+body {
+    padding-top: 5vh;
+    background-image: url('../img/planos.jpeg');
+    background-size: cover;
+    background-position-y: -150px;
+}

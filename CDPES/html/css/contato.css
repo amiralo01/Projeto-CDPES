@@ -68,7 +68,7 @@ header {
     margin-right: clamp(40px, 260px, 12vw);
 }
 
-.container .title-container {
+.title-container {
     text-align: center;
     text-transform: uppercase;
     color: #36204E;
