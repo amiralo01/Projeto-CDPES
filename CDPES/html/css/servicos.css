@@ -43,13 +43,13 @@ header {
 .side-right a {
     text-decoration: none;
     color: #858585;
-    margin: 0px 20px;
+    margin: 0px 18px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .menu-principal {
-    padding: 0 60px;
+    padding: 0 50px;
 }
 
 .menu-principal .title {
@@ -57,44 +57,29 @@ header {
     text-align: center;
     padding: 50px 0;
     font-weight: bold;
-    font-size: clamp(30px, 3.5vw, 3.5vw)
+    font-size: clamp(25px, 3.4vw, 3.4vw)
 }
 
-.container {
+.containers {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 50px;
+}
+
+.containers .container {
+    width: 100%;
     border-radius: 10px;
     padding: 15px;
     background-color: rgba(255, 255, 255, 0.7);
-    margin-left: clamp(40px, 260px, 12vw);
-    margin-right: clamp(40px, 260px, 12vw);
 }
 
-.container .title-container {
+.containers .container .title-container {
     text-align: center;
     text-transform: uppercase;
     color: #36204E;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 40px;
-}
-
-.container .content-container {
-    margin-bottom: 40px;
-}
-
-.view-plans {
-    margin-top: -15px;
-    text-align: center;
-}
-
-.view-plans a {
-    width: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    width: 10px;
-    font-size: 20px;
-    color: white;
-    padding: 15px 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: rgba(63, 46, 104, 0.7);
 }

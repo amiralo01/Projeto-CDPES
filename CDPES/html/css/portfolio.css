@@ -60,41 +60,19 @@ header {
     font-size: clamp(30px, 3.5vw, 3.5vw)
 }
 
-.container {
-    border-radius: 10px;
-    padding: 15px;
-    background-color: rgba(255, 255, 255, 0.7);
-    margin-left: clamp(40px, 260px, 12vw);
-    margin-right: clamp(40px, 260px, 12vw);
+.menu-principal .image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-
-.container .title-container {
-    text-align: center;
-    text-transform: uppercase;
-    color: #36204E;
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 40px;
+.menu-principal .image .AMARIZ{
+    width: 350px;
+    height: 350px;
 }
-
-.container .content-container {
-    margin-bottom: 40px;
+.menu-principal .image .micropigmentadora{
+    width: 300px;
+    height: 300px;
 }
-
-.view-plans {
-    margin-top: -15px;
-    text-align: center;
-}
-
-.view-plans a {
-    width: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    width: 10px;
-    font-size: 20px;
-    color: white;
-    padding: 15px 5px;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: rgba(63, 46, 104, 0.7);
+.menu-principal .image .MAMEDE{
+    width: 320px;
+    height: 320px;
 }

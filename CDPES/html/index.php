@@ -21,7 +21,7 @@ if (!isset($_SESSION)) {
         echo "Bem vindo ", $_SESSION['nome'];
         include_once("connect.php");
         $result = mysqli_query($mysqli, "SELECT *FROM inicial" );
-        echo mysqli_num_rows($result);
+        
     }
     ?>
     <header>

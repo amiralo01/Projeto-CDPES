@@ -41,6 +41,11 @@ if (!isset($_SESSION)) {
             <div class="title">
                 A CDPES também foi responsável pelo crescimento de grandes negócios
             </div>
+            <div class="image">
+                <img class="AMARIZ" src="img/AMARIZ.png" alt="AMARIZ" width="70">
+                <img class="micropigmentadora" src="img/tatianeteixeira.png" alt="micropigmentadora" width="70">
+                <img class="MAMEDE" src="img/MAMEDE.png" alt="MAMEDE" width="70">
+            </div>
         </div>
     </main>
 </body>
