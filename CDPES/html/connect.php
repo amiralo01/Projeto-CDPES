@@ -1,14 +1,13 @@
 <?php
 
 $server = "localhost";
-$port = "3006";
 $database = "cdpes";
 $usuario = "root";
-$senha = "134134";
+$senha = "";
 
-$mysqli = mysqli_connect($server, $usuario, $senha, $database, $port);
+$mysqli = mysqli_connect($server, $usuario, $senha, $database);
 if ($mysqli->mysqli_error){
-    echo "Falha ao conectar o banco de dados: " . $mysqli->error;
+    die ("Falha ao conectar o banco de dados: " . $mysqli->error);
 }
 
 mysqli_set_charset($mysqli, "utf8");

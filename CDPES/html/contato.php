@@ -1,8 +1,29 @@
 <?php
 if (!isset($_SESSION)) {
     session_start();
+
+    if(isset($_POST['nome']) || isset($_POST['email']) || isset($_POST['telefone']) || isset($_POST['empresa'])){
+        if(strlen($_POST['nome']) == 0 || strlen($_POST['email']) == 0 || strlen($_POST['telefone']) == 0 || strlen($_POST['empresa']) == 0){
+            echo "Preencha todos os campos";
+        }else{
+            include('connect.php');
+
+            $nome = $mysqli->real_escape_string($_POST['nome']);
+            $email = $mysqli->real_escape_string($_POST['email']);
+            $telefone = $mysqli->real_escape_string($_POST['telefone']);
+            $empresa = $mysqli->real_escape_string($_POST['peso']);
+            $idCliente = $_SESSION['id'];
+
+            $sql_code = "INSERT INTO 'cliente'('id', 'nome', 'email', 'telefone', 'empresa', 'idClente') VALUES (NULL, '$nome','$email', '$telefone', '$empresa' $idCliente);";
+            $sql_query = $mysqli->query($sql_code) or die("Falha na execução do código SQL:" . $mysqli->error);
+
+            header("Location: index.php");
+
+        }
+    }
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -64,15 +85,15 @@ if (!isset($_SESSION)) {
                                 <br>
                             </div>
                             <div class="label-float">
-                                <label for="telefone">*Telefone</label>
+                                <label for="telefone">*Telefone (DD *****-****)</label>
                                 <br>
-                                <input type="tel" id="phone" size="35" paceholder="" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required/>
+                                <input type="tel" id="phone" name="telefone" size="35" paceholder="" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required/>
 
                             </div>
                             <div class="label-float">
                                 <label id="name" for="empresa">*Empresa</label>
                                 <br>
-                                <input type="text" id="empresa" size="35" paceholder="" required autofocus/> 
+                                <input type="text" id="empresa" name="empresa" size="35" paceholder="" required autofocus/> 
                                 <br>
                             </div>
                             <div>

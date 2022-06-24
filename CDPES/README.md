@@ -44,11 +44,11 @@ Atualmente estou com alguns problemas para relacionar a parte de main.css com a 
 - Adicionar novas imagens tanto para ícone quanto para backgrounds.
 - Página de Contato completa e funcional que peça Nome, email, telefone e nome da empresa.
 - Página de Planos completa e funcional na qual o usuário poderá escolher o plano de negócios.
-- Página Inicial completa e funcional com paginações para serviços, portfólio e contato. Além de uma opção que leve para a página de planos, no caso um botão escrito "solicite o orçamento", onde logo acima deste botão também irá conter uma breve descrição da agência.
-- Página Contato completa e funcional onde o cliente poderá se registrar para que os administradores verfiquem ele no anco de dados e possam entrar em contato com o mesmo.
+- Página Inicial completa e funcional com paginações para serviços, portfólio e contato. Além de uma opção que leve para a página de planos, no caso um botão escrito "solicite o orçamento", onde logo acima deste botão também irá conter uma breve descrição da agência(este botão não foi implementado a página é basicamente um background).
+- Página Contato completa e funcional onde o cliente poderá se registrar para que os administradores verfiquem ele no banco de dados e possam entrar em contato com o mesmo(houve algum problema onde o banco de dados não registra os clientes).
 - Página de Portfolio completa e funcional onde o cliente poderá ver os trabalhos já feitos pela agência, através da imagens das empresas que ajudaram.
-- Criação de validadores em PHP para algumas páginas, de preferência para o cadastro em Contato.
-- Criação de um banco de dados em Sql inteligado ao PHP.
+- Criação de validadores em PHP e HTML para algumas páginas, de preferência para o cadastro em Contato.
+- Criação de um banco de dados em Sql inteligado ao PHP(database.sql não foi utilizado).
 
 ## Desenvolvimentos futuros📜
 + Criar mais opções e uma melhor estrutura para o guichê além adicionar o CSS com a estilização das páginas.
