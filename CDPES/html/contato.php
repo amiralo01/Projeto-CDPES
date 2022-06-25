@@ -11,13 +11,16 @@ if (!isset($_SESSION)) {
             $nome = $mysqli->real_escape_string($_POST['nome']);
             $email = $mysqli->real_escape_string($_POST['email']);
             $telefone = $mysqli->real_escape_string($_POST['telefone']);
-            $empresa = $mysqli->real_escape_string($_POST['peso']);
-            $idCliente = $_SESSION['id'];
+            $empresa = $mysqli->real_escape_string($_POST['empresa']);
+            $idCliente = '123';
 
-            $sql_code = "INSERT INTO 'cliente'('id', 'nome', 'email', 'telefone', 'empresa', 'idClente') VALUES (NULL, '$nome','$email', '$telefone', '$empresa' $idCliente);";
+            $sql_code = "INSERT INTO cliente (id, nome, email, telefone,
+                empresa, idCliente) 
+                VALUES (NULL, '$nome','$email', '$telefone', '$empresa', $idCliente);";
+
             $sql_query = $mysqli->query($sql_code) or die("Falha na execução do código SQL:" . $mysqli->error);
 
-            header("Location: index.php");
+            header("Location: index.php?msg=Contato enviado com sucesso!");
 
         }
     }
@@ -69,7 +72,8 @@ if (!isset($_SESSION)) {
                     Basta preencher o formulário abaixo para que nossa equipe entre em contato com você:
                 </div>
                 <div id="main-container">
-                    <form id="form" method="get" onsubmit="alert('Formulário enviado com sucesso!')" action="process.php">
+                    <form id="form" method="post" onsubmit="alert('Formulário enviado com sucesso!')" 
+                        action="contato.php">
                         <fieldset>
 
                             <div class="label-float">

@@ -1,7 +1,9 @@
 <?php
 if (!isset($_SESSION)) {
     session_start();
+
 }
+include('connect.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -27,6 +29,13 @@ if (!isset($_SESSION)) {
     <header>
         <div class="side-left">
             <img class="logo" src="img/logo.png" alt="logo" width="60">
+            <span>
+            <?php 
+                if (isset($_GET['msg'])) {
+                    echo $_GET['msg'];
+                }
+            ?>
+            </span>
         </div>
 
         <div class="side-right">

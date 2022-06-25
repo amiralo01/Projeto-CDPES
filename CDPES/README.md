@@ -48,7 +48,7 @@ Atualmente estou com alguns problemas para relacionar a parte de main.css com a 
 - Página Contato completa e funcional onde o cliente poderá se registrar para que os administradores verfiquem ele no banco de dados e possam entrar em contato com o mesmo(houve algum problema onde o banco de dados não registra os clientes).
 - Página de Portfolio completa e funcional onde o cliente poderá ver os trabalhos já feitos pela agência, através da imagens das empresas que ajudaram.
 - Criação de validadores em PHP e HTML para algumas páginas, de preferência para o cadastro em Contato.
-- Criação de um banco de dados em Sql inteligado ao PHP(database.sql não foi utilizado).
+- Criação de um banco de dados em Sql inteligado ao PHP.
 
 ## Desenvolvimentos futuros📜
 + Criar mais opções e uma melhor estrutura para o guichê além adicionar o CSS com a estilização das páginas.
@@ -56,3 +56,5 @@ Atualmente estou com alguns problemas para relacionar a parte de main.css com a 
 + Adicionar a função de notificações.
 + Adicionar funções em JavaScript e também em PHP.
 + Criação do Banco de Dados para o site.
++ Finalização da página de planos.
++ Melhorar a recursividade. 
