@@ -91,7 +91,7 @@ if (!isset($_SESSION)) {
                             <div class="label-float">
                                 <label for="telefone">*Telefone (DD *****-****)</label>
                                 <br>
-                                <input type="tel" id="phone" name="telefone" size="35" paceholder="" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required/>
+                                <input type="phone" id="phone" name="telefone" size="35" paceholder="" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required/>
 
                             </div>
                             <div class="label-float">

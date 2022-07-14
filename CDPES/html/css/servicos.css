@@ -64,7 +64,7 @@ header {
     display: grid;
     justify-items: center;
     text-align: center;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     grid-gap: 50px;
 }
 
@@ -80,6 +80,6 @@ header {
     text-transform: uppercase;
     color: #36204E;
     font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 40px;
+    font-size: 15px;
+    margin-bottom: 35px;
 }

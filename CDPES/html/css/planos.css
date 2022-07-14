@@ -1,24 +1,184 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 13px;
+    outline: none;
+    font-weight: 300;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
     color: #ffffff;
     border: none;
 }
-input, label{
-    display: block;
-    width: 100%;
-}
-input:focus, label:focus {
-    outline: none;
-}
-body .planos img{
-    height: 100%;
-}
 body {
-    padding-top: 5vh;
-    background-image: url('../img/planos.jpeg');
-    background-size: cover;
-    background-position-y: -150px;
+    background-color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.cabecalho{
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}
+h1{
+    font-size: 60px;
+    color:rgb(94, 7, 94);
+}
+
+.containers {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 100px;
+}
+
+.containers .container1 {
+    width: 100%;
+    border-radius: 15px;
+    padding: 6px;
+    background-color: rgb(94, 7, 94);
+}
+
+.containers .container1 .title-container1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fcfcfc;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.containers .container1 .Preço1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fcfcfc;
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: 35px;
+}
+
+.containers .container1 .content-container1 {
+    text-transform: uppercase;
+    color: #fcfcfc;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 90px;
+}
+
+.containers .container1 .contratar {
+    margin-top: -12px;
+    text-align: center;
+}
+
+.containers .container1 .contratar a{
+    width: 2px;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 15px;
+    font-size: 13px;
+    color: white;
+    padding: 12px 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgba(58, 228, 219, 0.7);
+}
+
+.containers .container2 {
+    width: 100%;
+    border-radius: 15px;
+    padding: 6px;
+    background-color: rgb(95, 43, 95);
+}
+
+.containers .container2 .title-container2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fcfcfc;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.containers .container2 .Preço2{
+    text-transform: uppercase;
+    color: #fcfcfc;
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: 35px;
+}
+
+.containers .container2 .content-container2 {
+    text-transform: uppercase;
+    color: #fcfcfc;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 60px;
+}
+.containers .container2 .contratar {
+    margin-top: -12px;
+    text-align: center;
+}
+.containers .container2 .contratar a{
+    width: 2px;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 15px;
+    font-size: 13px;
+    color: white;
+    padding: 12px 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgba(40, 233, 40, 0.7);
+}
+
+.containers .container3 {
+    width: 100%;
+    border-radius: 15px;
+    padding: 6px;
+    background-color: rgb(35, 95, 97);
+}
+
+.containers .container3 .title-container3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fcfcfc;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 35px;
+}
+
+.containers .container3 .Preço3{
+    text-transform: uppercase;
+    color: #fcfcfc;
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.containers .container3 .content-container3 {
+    text-transform: uppercase;
+    color: #fcfcfc;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 67px;
+}
+.containers .container3 .contratar {
+    margin-top: -1px;
+    text-align: center;
+}
+.containers .container3 .contratar a{
+    width: 2px;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 15px;
+    font-size: 13px;
+    color: white;
+    padding: 12px 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgba(52, 66, 52, 0.7);
 }
